@@ -1,0 +1,22 @@
+name: polars
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+    - pandas==2.0
+    - Faker
+    - pyarrow
+    - polars
+    - fsspec
+    - s3fs
+    - boto3
+    - duckdb
+    - click
+    - ipykernel
+    - jupyter
+    - deltalake
+    - seaborn
+    - matplotlib
